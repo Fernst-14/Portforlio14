@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Web Prediction",
+        "imageSrc": "project.png",
+        "description": "This project is about predicting diseases.",
+        "skills": ["React", "Django", "Node"],
+        "demo": "https://webprediction.netlify.app/"
+    },
+    {
+        "title": "Landing Page",
+        "imageSrc": "landing.png",
+        "description": "This is a project made to learn create website by React + Tailwindcss",
+        "skills": ["React", "TailwindCSS"],
+        "demo": "https://reactlanding1.netlify.app/"
+    },
+    {
+        "title": "Student Information",
+        "imageSrc": "st.png",
+        "description": "This project was created to learn how to use Vite with React connect to Node.js and work with a MySQL database.",
+        "skills": ["React", "Node" , "MySQL"],
+        "demo": "https://studentsinformation1.netlify.app/"
+    },
+    {
+        "title": "WorkShop Delivery food",
+        "imageSrc": "workshop.png",
+        "description": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
+        "skills": ["React", "TailwindCSS"],
+        "demo": "https://deliveryfood-workshop.netlify.app/"
+    }
+]

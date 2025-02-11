@@ -1,0 +1,48 @@
+[
+    {
+      "role": "Developer",
+      "organisation": "Nitto Matex (Thailand) Co., Ltd.",
+      "startDate": "November ,2023",
+      "endDate": "June ,2024",
+      "experiences": [
+        "Developed programs for handheld devices using VB.Net.", 
+        "Configured and troubleshot handheld devices.",
+        "Developed RPA and experimented with various projects.",
+        "Provided consultation and guidance on RPA development.",
+        "Installed and troubleshot UiPath software.",
+        "Created a web page on SharePoint related to RPA.",
+        "Developed user manuals for RPA.",
+        "Created troubleshooting guidelines for RPA issues."
+        ],
+      "imageSrc": "nitto.png"
+    },
+    {
+      "role": "IT Support",
+      "organisation": "G.S. Electech (Thailand) Co., Ltd.",
+      "startDate": "March ,2022",
+      "endDate": "October ,2023",
+      "experiences": [
+        "Maintained and troubleshot computer systems.", 
+        "Installed software for users, including Windows and other programs.",
+        "Managed CCTV systems, networks, and servers.",
+        "Developed Windows applications using C#.",
+        "Created user manuals for various systems and software.",
+        "Conducted software testing.",
+        "Studied and explored RPA implementation."
+        ],
+      "imageSrc": "gs.png"
+    },
+    {
+      "role": "Work Experience During Education",
+      "organisation": "Khon Kaen University",
+      "startDate": "Aug, 2017",
+      "endDate": "June, 2021",
+      "experiences": [
+        "Participated in the 23rd Thailand National Software Contest.",
+        "Assisted and guided participants at the Science Day event, Faculty of Science, Khon Kaen University.",
+        "Managed the registration of participants for the Atom Games event at Khon Kaen University.",
+        "Internship at Provincial Electricity Authority (PEA), Ban Bueng District, Chonburi, in the Customer Service Department."
+      ],
+      "imageSrc": "kku2.png"
+    }
+  ]

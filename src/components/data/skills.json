@@ -1,0 +1,42 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "html_resized1.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "css_resized1.png"
+    },
+    {
+        "title": "JS",
+        "imageSrc": "java-script_resized1.png"
+    },
+    {
+        "title": "C#",
+        "imageSrc": "c-sharp1.png"
+    },
+    {
+        "title": "VB",
+        "imageSrc": "vb_1.png"
+    },
+    {
+        "title": "SQL",
+        "imageSrc": "sql-1.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "python_resized1.png"
+      },
+    {
+      "title": "React",
+      "imageSrc": "react_resized1.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "nodejs_resized1.png"
+    },
+    {
+        "title": "RPA",
+        "imageSrc": "rpa_resized1.png"
+    }   
+]
