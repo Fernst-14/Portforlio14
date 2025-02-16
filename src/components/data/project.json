@@ -26,5 +26,13 @@
         "description": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
         "skills": ["React", "TailwindCSS"],
         "demo": "https://deliveryfood-workshop.netlify.app/"
+    },
+    {
+        "title": "Todolist",
+        "imageSrc": "todo.png",
+        "description": "This project is a web application that allows users to create and manage a list of tasks. It is built using React and Vite, and styled with Tailwind CSS.",
+        "skills": ["React", "TailwindCSS"],
+        "demo": "https://react1-todolist.netlify.app/"
     }
+
 ]
