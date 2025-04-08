@@ -36,8 +36,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: calc(33.33% - 20px); /* ทำให้แต่ละภาพกินพื้นที่ 1 ใน 3 ของแถว */
-    max-width: 320px;
+    /* width: calc(50% - 20px); ทำให้แต่ละภาพกินพื้นที่ 1 ใน 3 ของแถว */
+    max-width: 480px;
 }
 
 .cerImageContainer{
@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .cerImageContainer img{

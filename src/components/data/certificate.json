@@ -10,6 +10,13 @@
     {
         "title": "Certificate of Completion",
         "imageSrc": "Cert.jpg"
+    },
+    {
+        "title": "Basic React",
+        "imageSrc": "CerReact.png"
+    },
+    {
+        "title": "Creeate React Application with React-Native",
+        "imageSrc": "cerReactNative.png"
     }
-
 ]

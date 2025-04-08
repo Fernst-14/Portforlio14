@@ -7,19 +7,21 @@ import {Experience} from './components/Experience/Experience';
 import { Certificate } from './components/certificate/certificate';
 import {Project} from './components/Project/Projects';
 import { Contact } from './components/Contact/Contact';
+import GoToTopButton from './components/GotoTop/GotoTop';
 
 function App() {
-  
+
   return (
-    
+
     <div className={styles.App}>
-      <Navbav /> 
+      <Navbav />
       <Hero />
       <About />
       <Experience />
       <Certificate />
       <Project />
       <Contact />
+      <GoToTopButton />
     </div>
   )
 }
