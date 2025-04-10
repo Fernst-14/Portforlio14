@@ -35,11 +35,11 @@
         "demo": "https://react1-todolist.netlify.app/"
     },
     {
-        "title": "Workshop Create Mobile App",
+        "title": "My Mobile App Projects",
         "imageSrc": "event.png",
-        "description": "This project use React Native for develop mobile app",
+        "description": "This Web site show my mobile app projects using React Native for development",
         "skills": ["React Native"],
-        "demo": "https://evetsapp.netlify.app/"
+        "demo": "https://mymobileapp-projects.netlify.app/"
     }
 
 ]
