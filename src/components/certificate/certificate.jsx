@@ -6,7 +6,7 @@ import certificate from '../data/certificate.json';
 export const Certificate = () =>{
     return (
         <section className={styles.container} id='certificate'>
-            <h2 className={styles.title}>Certificate</h2>
+            <h2 className={styles.title}>Certificates</h2>
             <div className={styles.content}>
                 <div className={styles.cers}>
                     {certificate.map((cer,id)=>{
