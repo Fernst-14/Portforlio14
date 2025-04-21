@@ -40,6 +40,13 @@
         "description": "This Web site show my mobile app projects using React Native for development",
         "skills": ["React Native"],
         "demo": "https://mymobileapp-projects.netlify.app/"
+    },
+    {
+        "title": "ChatRoom",
+        "imageSrc": "ChatsRoom.png",
+        "description": "ChatRoom application using Vite + React and TailwindCSS, featuring real-time messaging powered by Firebase Firestore.",
+        "skills": ["React", "TailwindCSS", "Firebase"],
+        "demo": "https://chats-room.netlify.app/"
     }
 
 ]
