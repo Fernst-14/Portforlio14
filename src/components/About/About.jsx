@@ -7,9 +7,9 @@ export const About = () => {
   <section className={styles.container} id="about">
     <h2 className={styles.title}>About</h2>
     <div className={styles.content}>
-        <img 
+        <img
         src="/images/about/code.jpg"
-        alt="Me" 
+        alt="Me"
         className={styles.aboutImage}
     />
     <ul className={styles.aboutItems}>
@@ -28,6 +28,14 @@ export const About = () => {
             </div>
         </li>
         <li className={styles.aboutItem}>
+            <img src="/images/about/certificate.png" alt='Education'  className={styles.aboutImages}></img>
+            <div className={styles.aboutItemText}>
+                <h3>Professional Development (Dec 2024 - May 2025) </h3>
+                <p>Communication English (Intermediate)</p>
+                <p>ICL Graduate Business School </p>
+            </div>
+        </li>
+        <li className={styles.aboutItem}>
             <img src="/images/about/soft skill.png" alt='Intership'  className={styles.aboutImages}></img>
             <div className={styles.aboutItemText}>
                 <h3>Soft Skills</h3>
@@ -36,7 +44,7 @@ export const About = () => {
                 <p>Good communication & active listening skills</p>
             </div>
         </li>
-        
+
     </ul>
     </div>
   </section>
