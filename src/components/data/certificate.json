@@ -1,22 +1,37 @@
 [
     {
-        "title": "UiPath Developer Foundation",
-        "imageSrc": "CertRPA1.jpg"
+      "title": {
+        "en": "UiPath Developer Foundation",
+        "th": "ใบรับรองการอบรม UiPath ระดับพื้นฐาน"
+      },
+      "imageSrc": "CertRPA1.jpg"
     },
     {
-        "title": "UiPath Developer Advanced",
-        "imageSrc": "CertRPA2.jpg"
+      "title": {
+        "en": "UiPath Developer Advanced",
+        "th": "ใบรับรองการอบรม UiPath ระดับสูง"
+      },
+      "imageSrc": "CertRPA2.jpg"
     },
     {
-        "title": "Certificate of Completion",
-        "imageSrc": "Cert.jpg"
+      "title": {
+        "en": "Certificate of Completion",
+        "th": "ใบรับรองการจบหลักสูตร"
+      },
+      "imageSrc": "Cert.jpg"
     },
     {
-        "title": "Basic React",
-        "imageSrc": "CerReact.png"
+      "title": {
+        "en": "Basic React",
+        "th": "พื้นฐาน React"
+      },
+      "imageSrc": "CerReact.png"
     },
     {
-        "title": "Creeate React Application with React-Native",
-        "imageSrc": "cerReactNative.png"
+      "title": {
+        "en": "Create React Application with React-Native",
+        "th": "สร้างแอปด้วย React-Native"
+      },
+      "imageSrc": "cerReactNative.png"
     }
-]
+  ]

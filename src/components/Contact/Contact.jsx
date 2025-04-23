@@ -1,12 +1,20 @@
 import "react";
 import { getImageUrl } from "../../utils";
 import styles from './Contact.module.css';
+import contactEn from "./contact-en";
+import contactTh from "./contact-th";
+import { useLanguage } from "../Context/LanguageContext";
+
 export const Contact = () => {
+  const { lang } = useLanguage();
+  const t = lang === "en" ? contactEn : contactTh;
+
+
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <h2>{t.contact.title}</h2>
+        <p>{t.contact.subtitle}</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>

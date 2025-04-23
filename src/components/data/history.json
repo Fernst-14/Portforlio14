@@ -1,48 +1,88 @@
 [
   {
-    "role": "Developer",
+    "role": {
+      "en": "Developer",
+      "th": "นักพัฒนาโปรแกรม"
+    },
     "organisation": "Nitto Matex (Thailand) Co., Ltd.",
-    "startDate": "November ,2023",
-    "endDate": "July ,2024",
-    "experiences": [
-      "Developed and maintained VB.Net apps for handheld devices",
-      "Configured and fixed handheld device issues",
-      "Built and tested RPA projects using UiPath",
-      "Advised on RPA workflows and solutions",
-      "Installed and troubleshot UiPath software",
-      "Created RPA content and guides on SharePoint",
-      "Wrote RPA user manuals and troubleshooting tips"
-    ],
+    "startDate": "November 2023",
+    "endDate": "July 2024",
+    "experiences": {
+      "en": [
+        "Developed and maintained VB.Net apps for handheld devices",
+        "Configured and fixed handheld device issues",
+        "Built and tested RPA projects using UiPath",
+        "Advised on RPA workflows and solutions",
+        "Installed and troubleshot UiPath software",
+        "Created RPA content and guides on SharePoint",
+        "Wrote RPA user manuals and troubleshooting tips"
+      ],
+      "th": [
+        "พัฒนาและดูแลแอปพลิเคชัน VB.Net สำหรับอุปกรณ์พกพา",
+        "ตั้งค่าและแก้ไขปัญหาอุปกรณ์พกพา",
+        "สร้างและทดสอบโปรเจกต์ RPA ด้วย UiPath",
+        "ให้คำปรึกษาด้าน Workflow ของระบบอัตโนมัติ (RPA)",
+        "ติดตั้งและแก้ไขปัญหาซอฟต์แวร์ UiPath",
+        "สร้างเนื้อหาและคู่มือ RPA บน SharePoint",
+        "เขียนคู่มือการใช้งานและคำแนะนำในการแก้ปัญหา"
+      ]
+    },
     "imageSrc": "nitto.png"
   },
   {
-    "role": "IT Support",
+    "role": {
+      "en": "IT Support",
+      "th": "เจ้าหน้าที่สนับสนุนด้านไอที"
+    },
     "organisation": "G.S. Electech (Thailand) Co., Ltd.",
-    "startDate": "March ,2022",
-    "endDate": "October ,2023",
-    "experiences": [
-      "Maintained and troubleshot computer systems",
-      "Installed Windows and other software for users",
-      "Managed CCTV systems, network infrastructure, and servers",
-      "Developed desktop applications using C#",
-      "Created user manuals for systems and software",
-      "Performed software testing",
-      "Studied and explored RPA implementation",
-      "Trained and supported staff in using computer systems and software"
-    ],
+    "startDate": "March 2022",
+    "endDate": "October 2023",
+    "experiences": {
+      "en": [
+        "Maintained and troubleshot computer systems",
+        "Installed Windows and other software for users",
+        "Managed CCTV systems, network infrastructure, and servers",
+        "Developed desktop applications using C#",
+        "Created user manuals for systems and software",
+        "Performed software testing",
+        "Studied and explored RPA implementation",
+        "Trained and supported staff in using computer systems and software"
+      ],
+      "th": [
+        "ดูแลและแก้ไขปัญหาระบบคอมพิวเตอร์ภายในองค์กร",
+        "ติดตั้ง Windows และโปรแกรมอื่น ๆ ให้กับผู้ใช้งาน",
+        "ดูแลระบบกล้องวงจรปิด เครือข่าย และเซิร์ฟเวอร์",
+        "พัฒนาโปรแกรมเดสก์ท็อปด้วยภาษา C#",
+        "จัดทำคู่มือการใช้งานระบบและซอฟต์แวร์",
+        "ทดสอบซอฟต์แวร์ก่อนใช้งานจริง",
+        "ศึกษาและทดลองการใช้งานระบบ RPA",
+        "ฝึกอบรมและให้การสนับสนุนพนักงานในการใช้งานคอมพิวเตอร์"
+      ]
+    },
     "imageSrc": "gs.png"
   },
   {
-    "role": "Work Experience During Education",
+    "role": {
+      "en": "Work Experience During Education",
+      "th": "ประสบการณ์ระหว่างศึกษา"
+    },
     "organisation": "Khon Kaen University",
-    "startDate": "Aug, 2017",
-    "endDate": "June, 2021",
-    "experiences": [
-      "Participated in the 23rd Thailand National Software Contest.",
-      "Assisted and guided participants at the Science Day event, Faculty of Science, Khon Kaen University.",
-      "Managed the registration of participants for the Atom Games event at Khon Kaen University.",
-      "Internship at Provincial Electricity Authority (PEA), Ban Bueng District, Chonburi, in the Customer Service Department."
-    ],
+    "startDate": "Aug 2017",
+    "endDate": "June 2021",
+    "experiences": {
+      "en": [
+        "Participated in the 23rd Thailand National Software Contest.",
+        "Assisted and guided participants at the Science Day event, Faculty of Science, Khon Kaen University.",
+        "Managed the registration of participants for the Atom Games event at Khon Kaen University.",
+        "Internship at Provincial Electricity Authority (PEA), Ban Bueng District, Chonburi, in the Customer Service Department."
+      ],
+      "th": [
+        "เข้าร่วมการประกวดซอฟต์แวร์แห่งประเทศไทย ครั้งที่ 23",
+        "ช่วยดูแลและให้คำแนะนำในงานวันวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น",
+        "ดูแลระบบลงทะเบียนกิจกรรม Atom Games ที่มหาวิทยาลัยขอนแก่น",
+        "ฝึกงานที่การไฟฟ้าส่วนภูมิภาค อ.บ้านบึง จ.ชลบุรี ในแผนกลูกค้าสัมพันธ์"
+      ]
+    },
     "imageSrc": "kku2.png"
   }
 ]

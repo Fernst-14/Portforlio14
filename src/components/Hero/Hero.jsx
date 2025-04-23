@@ -1,30 +1,36 @@
 import "react";
 
 import styles from "./Hero.module.css";
+import HeroTH from "./Hero-th";
+import HeroEN from "./Hero-en";
+import { useLanguage } from "../Context/LanguageContext";
+
 
 export const Hero = () => {
+    const { lang } = useLanguage();
+    const t = lang === "en" ? HeroEN : HeroTH;
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}> Hi, I&apos;m Fern</h1>
+        <h1 className={styles.title}> {t.hero.title} </h1>
         <p className={styles.description}>
-        Developer with 2.5 years of experience in IT support,
-        automation, and software development. Skilled in both web technologies and process improvement, and open to diverse opportunities.
+            {t.hero.description}
         </p>
 
         <a
           href="mailto:sasithorntechawannaphong@gmail.com"
           className={styles.contextBtn}
         >
-          Contact me
+          {t.hero.contact}
         </a>
         {/* 📄 Resume & CV Buttons */}
         <div className={styles.buttonGroup}>
           <a href="/Sasithorn_Resume(TH&EN).zip" download className={styles.downloadBtn}>
-            Download Resume
+            {t.hero.downloadResume}
           </a>
           <a href="/Sasithorn_CV_(TH&EN).zip" download className={styles.downloadBtnAlt}>
-            Download CV
+            {t.hero.downloadCV}
           </a>
         </div>
       </div>

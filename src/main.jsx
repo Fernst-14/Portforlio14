@@ -5,9 +5,12 @@ import App from './App.jsx'
 
 import "@fontsource/outfit";
 import "@fontsource/roboto";
+import { LanguageProvider } from './components/Context/LanguageContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <LanguageProvider>
+      <App />
+    </LanguageProvider>
   </StrictMode>,
 )

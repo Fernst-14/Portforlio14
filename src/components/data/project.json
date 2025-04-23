@@ -1,50 +1,92 @@
 [
     {
-        "title": "Web Prediction",
+        "title": {
+            "en": "Web Prediction",
+            "th": "เว็บทำนายการเกิดโรค"
+        },
         "imageSrc": "project.png",
-        "description": "This project is about predicting diseases.",
+        "description": {
+            "en" : "This project is about predicting diseases.",
+            "th" : "เว็บทำนายการเกิดโรคอ้วน และโรคที่เกิดจากโรคอ้วน"
+        },
         "skills": ["React", "Django", "Node"],
         "demo": "https://webprediction.netlify.app/"
     },
     {
-        "title": "Landing Page",
+        "title": {
+            "en": "Landing Page",
+            "th": "หน้าเว็บไซต์สำหรับการทดลอง"
+        },
         "imageSrc": "landing.png",
-        "description": "This is a project made to learn create website by React + Tailwindcss",
+        "description": {
+            "en": "This is a project made to learn create website by React + Tailwindcss",
+            "th": "โปรเจกต์นี้สร้างขึ้นเพื่อทดลองทำเว็บไซต์ด้วย React และ Tailwind CSS"
+        },
         "skills": ["React", "TailwindCSS"],
         "demo": "https://reactlanding1.netlify.app/"
     },
     {
-        "title": "Student Information",
+        "title": {
+            "en": "Students Information",
+            "th": "ระบบจัดการข้อมูลนักเรียน"
+        },
         "imageSrc": "st.png",
-        "description": "This project was created to learn how to use Vite with React connect to Node.js and work with a MySQL database.",
+        "description": {
+        "en": "This project was created to learn how to use Vite with React connect to Node.js and work with a MySQL database.",
+        "th": "โปรเจกต์นี้พัฒนาขึ้นเพื่อทดลองเชื่อม React กับ Node.js และใช้งานฐานข้อมูล MySQL"
+        },
         "skills": ["React", "Node" , "MySQL"],
         "demo": "https://studentsinformation1.netlify.app/"
     },
     {
-        "title": "WorkShop Delivery food",
+        "title": {
+            "en": "WorkShop Delivery Food",
+            "th": "เว็บไซต์สั่งอาหารออนไลน์ (เวิร์กช็อป)"
+        },
         "imageSrc": "workshop.png",
-        "description": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
+        "description": {
+            "en": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
+            "th": "เว็บไซต์สำหรับสั่งอาหารออนไลน์ พัฒนาขึ้นในเวิร์กช็อป โดยใช้ Vite + React และออกแบบ UI ด้วย Tailwind CSS"
+          },
         "skills": ["React", "TailwindCSS"],
         "demo": "https://deliveryfood-workshop.netlify.app/"
     },
     {
-        "title": "Todolist",
+        "title": {
+            "en": "Todolist",
+            "th": "รายการสิ่งที่ต้องทำ"
+        },
         "imageSrc": "todo.png",
-        "description": "This project is a web application that allows users to create and manage a list of tasks. It is built using React and Vite, and styled with Tailwind CSS.",
+        "description": {
+            "en": "This project is a web application that allows users to create and manage a list of tasks. It is built using React and Vite, and styled with Tailwind CSS.",
+            "th": "เว็บแอปที่ช่วยให้ผู้ใช้สร้างและจัดการรายการสิ่งที่ต้องทำ พัฒนาโดยใช้ React และ Vite พร้อมออกแบบด้วย Tailwind CSS"
+        },
         "skills": ["React", "TailwindCSS"],
         "demo": "https://react1-todolist.netlify.app/"
     },
     {
-        "title": "My Mobile App Projects",
+        "title": {
+            "en": "My Mobile App Projects",
+            "th": "รวมโปรเจกต์แอปมือถือ"
+        },
         "imageSrc": "event.png",
-        "description": "This Web site show my mobile app projects using React Native for development",
+        "description": {
+            "en": "This Web site show my mobile app projects using React Native for development",
+            "th": "เว็บไซต์นี้แสดงผลงานแอปมือถือที่สร้างด้วย React Native"
+        },
         "skills": ["React Native"],
         "demo": "https://mymobileapp-projects.netlify.app/"
     },
     {
-        "title": "ChatRoom",
+        "title": {
+            "en": "ChatRoom",
+            "th": "ห้องแชทออนไลน์"
+        },
         "imageSrc": "ChatsRoom.png",
-        "description": "ChatRoom application using Vite + React and TailwindCSS, featuring real-time messaging powered by Firebase Firestore.",
+        "description": {
+            "en": "ChatRoom application using Vite + React and TailwindCSS, featuring real-time messaging powered by Firebase Firestore.",
+            "th": "แอปพลิเคชันห้องแชทเรียลไทม์ที่พัฒนาด้วย Vite + React และ TailwindCSS พร้อมเชื่อมต่อกับ Firebase Firestore"
+        },
         "skills": ["React", "TailwindCSS", "Firebase"],
         "demo": "https://chats-room.netlify.app/"
     }
