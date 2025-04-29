@@ -5,7 +5,7 @@ import styles from "./ProjectCard.module.css";
 import { useLanguage } from "../Context/LanguageContext";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo },
+  project: { title, imageSrc, description, skills, demo, category },
 }) => {
   const { lang } = useLanguage();
 
@@ -13,6 +13,12 @@ export const ProjectCard = ({
     <div className={styles.container}>
       <img src={`/images/project/${imageSrc}`} alt={title} className={styles.imagesPro}/>
       <h3 className={styles.title}>{title[lang]}</h3>
+
+      <p className={styles.category}>
+        {category === 'University' ? (lang === 'en' ? 'University Project' : 'โปรเจกต์มหาวิทยาลัย') :
+         category === 'Workshop' ? (lang === 'en' ? 'Workshop Project' : 'โปรเจกต์เวิร์กช็อป') :
+         (lang === 'en' ? 'Professional Project' : 'โปรเจกต์ทำงาน')}
+      </p>
       <p className={styles.description}>{description[lang]}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
@@ -23,6 +29,7 @@ export const ProjectCard = ({
           );
         })}
       </ul>
+      {demo && (
       <div className={styles.links}>
         <a
           href={demo}
@@ -33,6 +40,7 @@ export const ProjectCard = ({
           Demo
         </a>
       </div>
+      )}
     </div>
   );
 };

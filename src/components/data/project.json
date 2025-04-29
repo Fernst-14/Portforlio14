@@ -4,10 +4,11 @@
             "en": "Web Prediction",
             "th": "เว็บทำนายการเกิดโรค"
         },
+        "category": "University",
         "imageSrc": "project.png",
         "description": {
-            "en" : "This project is about predicting diseases.",
-            "th" : "เว็บทำนายการเกิดโรคอ้วน และโรคที่เกิดจากโรคอ้วน"
+            "en" : "This website is designed to predict obesity and obesity-related diseases using trained models based on data collected from patient behavior and eating habits surveys. The data is used to train the model for accurate predictions. Django with Python is used to create the prediction model, while React powers the front-end interface, and Node.js serves as the API to communicate with the Django back-end.",
+            "th" : "เว็บไซต์นี้จัดทำขึ้นเพื่อทำนายการเกิดโรคอ้วนและโรคที่เกิดจากโรคอ้วน โดยใช้ข้อมูลที่เก็บจากการสำรวจพฤติกรรมและการกินของผู้ป่วยมาฝึกสร้างโมเดลในการทำนายข้อมูล โดยใช้ Django และ Python ในการสร้างโมเดลทำนาย และ React ในการสร้างหน้าตาเว็บไซต์ ส่วน Node.js ใช้เป็น API ในการส่งข้อมูลไปยัง Django เพื่อการประมวลผล."
         },
         "skills": ["React", "Django", "Node"],
         "demo": "https://webprediction.netlify.app/"
@@ -17,6 +18,7 @@
             "en": "Landing Page",
             "th": "หน้าเว็บไซต์สำหรับการทดลอง"
         },
+        "category": "Workshop",
         "imageSrc": "landing.png",
         "description": {
             "en": "This is a project made to learn create website by React + Tailwindcss",
@@ -30,6 +32,7 @@
             "en": "Students Information",
             "th": "ระบบจัดการข้อมูลนักเรียน"
         },
+        "category": "Workshop",
         "imageSrc": "st.png",
         "description": {
         "en": "This project was created to learn how to use Vite with React connect to Node.js and work with a MySQL database.",
@@ -43,6 +46,7 @@
             "en": "WorkShop Delivery Food",
             "th": "เว็บไซต์สั่งอาหารออนไลน์ (เวิร์กช็อป)"
         },
+        "category": "Workshop",
         "imageSrc": "workshop.png",
         "description": {
             "en": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
@@ -56,6 +60,7 @@
             "en": "Todolist",
             "th": "รายการสิ่งที่ต้องทำ"
         },
+        "category": "Workshop",
         "imageSrc": "todo.png",
         "description": {
             "en": "This project is a web application that allows users to create and manage a list of tasks. It is built using React and Vite, and styled with Tailwind CSS.",
@@ -69,6 +74,7 @@
             "en": "My Mobile App Projects",
             "th": "รวมโปรเจกต์แอปมือถือ"
         },
+        "category": "Workshop",
         "imageSrc": "event.png",
         "description": {
             "en": "This Web site show my mobile app projects using React Native for development",
@@ -82,6 +88,7 @@
             "en": "ChatRoom",
             "th": "ห้องแชทออนไลน์"
         },
+        "category": "Workshop",
         "imageSrc": "ChatsRoom.png",
         "description": {
             "en": "ChatRoom application using Vite + React and TailwindCSS, featuring real-time messaging powered by Firebase Firestore.",
@@ -89,6 +96,58 @@
         },
         "skills": ["React", "TailwindCSS", "Firebase"],
         "demo": "https://chats-room.netlify.app/"
-    }
+    },
+    {
+        "title": {
+            "en" : "Inventory Management System",
+            "th" : "ระบบจัดการคลังสินค้า"
+        },
+        "category": "Professional",
+        "imageSrc": "inv.jpg",
+        "description": {
+            "en" : "Developed an internal desktop application using C# and Microsoft SQL Server to manage inventory counting within the company. This system supports item check-in/check-out and generates summary reports.",
+            "th": "พัฒนาแอปพลิเคชันเดสก์ท็อปภายในบริษัทด้วยภาษา C# และ Microsoft SQL Server สำหรับจัดการการนับสต๊อกสินค้า รองรับการรับ-จ่ายสินค้า และสรุปรายงานการนับสต๊อก"
+        },
+        "skills": ["C#", "Microsoft SQL Server"]
+    },
+    {
+        "title": {
+            "en" : "IT Department Asset Registration",
+            "th" : "ระบบลงทะเบียนสินทรัพย์แผนกไอที"
+        },
+        "category": "Professional",
+        "imageSrc": "regis.jpg",
+        "description": {
+            "en": "Created a desktop application for the IT department to register and track IT assets across various departments. The system ensures proper recording and provides asset history reporting.",
+            "th": "พัฒนาแอปพลิเคชันเดสก์ท็อปสำหรับลงทะเบียนและติดตามทรัพย์สินของแผนกไอทีในแต่ละแผนก พร้อมฟังก์ชันบันทึกประวัติการใช้งาน"
+        },
+        "skills": ["C#", "Microsoft SQL Server"]
+    },
+    {
+        "title": {
+          "en": "Goods Receiving System on Handheld Devices",
+          "th": "ระบบรับสินค้าเข้าคลังบนอุปกรณ์ Handheld"
+        },
+        "category": "Professional",
+        "imageSrc": "receive.jpg",
+        "description": {
+          "en": "Developed a goods receiving system for handheld devices using VB.NET, connected to a PostgreSQL database and integrated with a Node.js backend. The system helps streamline warehouse stock-in processes efficiently.",
+          "th": "พัฒนาระบบรับสินค้าเข้าคลังสำหรับใช้งานบนอุปกรณ์ Handheld โดยใช้ VB.NET เชื่อมต่อฐานข้อมูล PostgreSQL และมีระบบ backend ด้วย Node.js เพื่อให้การรับสินค้าเข้าคลังเป็นไปอย่างมีประสิทธิภาพ"
+        },
+        "skills": ["VB.NET", "PostgreSQL", "Node.js"]
+      },
+      {
+        "title": {
+          "en": "RPA User Guide & Workflow Support",
+          "th": "คู่มือ RPA และการสนับสนุน Workflow"
+        },
+        "category": "Professional",
+        "imageSrc": "rpa.jpg",
+        "description": {
+          "en": "Created a beginner-friendly RPA user manual with UiPath, including troubleshooting. Designed a SharePoint page for knowledge sharing. Assisted users with workflow analysis and troubleshooting during RPA implementation.",
+          "th": "สร้างคู่มือการใช้งาน RPA เบื้องต้นด้วย UiPath รวมถึงการแก้ไขปัญหา ออกแบบหน้า SharePoint สำหรับการแชร์ความรู้ ช่วยผู้ใช้ในการวิเคราะห์กระบวนการทำงานและแก้ไขปัญหาระหว่างการพัฒนา RPA"
+        },
+        "skills": ["UiPath", "SharePoint", "Canva" ,"Communication", "Workflow Analysis"]
+      }
 
 ]

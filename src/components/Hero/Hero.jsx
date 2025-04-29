@@ -26,10 +26,10 @@ export const Hero = () => {
         </a>
         {/* 📄 Resume & CV Buttons */}
         <div className={styles.buttonGroup}>
-          <a href="/Sasithorn_Resume(TH&EN).zip" download className={styles.downloadBtn}>
+          <a href="/Sasithorn-Resume(TH&EN).zip" download className={styles.downloadBtn}>
             {t.hero.downloadResume}
           </a>
-          <a href="/Sasithorn_CV_(TH&EN).zip" download className={styles.downloadBtnAlt}>
+          <a href="/Sasithorn-CV(TH&EN).zip" download className={styles.downloadBtnAlt}>
             {t.hero.downloadCV}
           </a>
         </div>
