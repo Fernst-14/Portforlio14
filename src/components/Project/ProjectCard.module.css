@@ -18,13 +18,14 @@
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
-    max-width: 380px;
-    min-height: 650px;  /* กำหนดความสูงขั้นต่ำ */
-    height: auto;  /* ความสูงจะปรับตามเนื้อหา */
+    max-width: 440px;
+    min-height: 650px;
+    height: 100%; /* กำหนดความสูงคงที่ */
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     align-items: stretch;  /* ให้ทุกการ์ดยืดขยายได้เต็มที่ */
+    justify-content: space-between; /* ช่วยจัดเรียงเนื้อหาภายใน */
 }
 
 .imagesPro {
@@ -57,8 +58,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
     list-style: none;
+    justify-content: space-evenly;
 }
 
 .skills li {
