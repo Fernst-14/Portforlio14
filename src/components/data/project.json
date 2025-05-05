@@ -148,6 +148,20 @@
           "th": "สร้างคู่มือการใช้งาน RPA เบื้องต้นด้วย UiPath รวมถึงการแก้ไขปัญหา ออกแบบหน้า SharePoint สำหรับการแชร์ความรู้ ช่วยผู้ใช้ในการวิเคราะห์กระบวนการทำงานและแก้ไขปัญหาระหว่างการพัฒนา RPA"
         },
         "skills": ["UiPath", "SharePoint", "Canva" ,"Communication", "Workflow Analysis"]
+      },
+      {
+        "title": {
+          "en": "Travel Gallery",
+          "th": "เว็บไซต์แกลเลอรีภาพท่องเที่ยว"
+        },
+        "category": "Workshop",
+        "imageSrc": "travel.png",
+        "description": {
+          "en": "A responsive travel gallery website that showcases travel photos from countries like China, New Zealand, Hong Kong, and Thailand. Each location includes bilingual descriptions (Thai and English). Users can click to open a smooth modal slideshow to explore more photos in each location.",
+          "th":"เว็บไซต์แกลเลอรีที่จัดแสดงภาพสถานที่ท่องเที่ยวในประเทศต่าง ๆ เช่น จีน นิวซีแลนด์ ฮ่องกง และไทย พร้อมคำบรรยายรองรับสองภาษา (ไทยและอังกฤษ) ผู้ใช้สามารถคลิกเพื่อดูภาพขนาดใหญ่แบบสไลด์ในรูปแบบ Modal ได้อย่างสวยงามและลื่นไหล รองรับการใช้งานทั้งบนมือถือและเดสก์ท็อป"
+        },
+        "skills": ["React", "Tailwind CSS"],
+        "demo" : "https://travel-gallery1.netlify.app/"
       }
 
 ]
