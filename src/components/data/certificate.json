@@ -4,14 +4,14 @@
         "en": "UiPath Developer Foundation",
         "th": "ใบรับรองการอบรม UiPath ระดับพื้นฐาน"
       },
-      "imageSrc": "CertRPA1.jpg"
+      "imageSrc": "Certificate RPA2.jpg"
     },
     {
       "title": {
         "en": "UiPath Developer Advanced",
         "th": "ใบรับรองการอบรม UiPath ระดับสูง"
       },
-      "imageSrc": "CertRPA2.jpg"
+      "imageSrc": "Certificate RPA1.jpg"
     },
     {
       "title": {
@@ -40,5 +40,12 @@
         "th": "ใบรับรองการจบหลักสูตร"
       },
       "imageSrc": "ICL.jpg"
+    },
+    {
+      "title": {
+        "en": "Certificate of Completion open up the world of AI skills and cybersecurity",
+        "th": "ใบรับรองการจบหลักสูตร เปิดโลกทักษะ AI และความปลอดภัยทางไซเบอร์"
+      },
+      "imageSrc": "AI And Cyber.png"
     }
   ]
