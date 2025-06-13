@@ -1,0 +1,185 @@
+[
+  {
+    "title": {
+      "th": "Time Attendance Automation – แผนก HR",
+      "en": "Time Attendance Automation – HR Department"
+    },
+    "objective": {
+      "th": "ลดเวลาการดึงข้อมูลเข้างานเพื่อคำนวณเงินเดือน",
+      "en": "Reduce time spent on collecting attendance data for payroll calculation"
+    },
+    "flow": {
+      "th": [
+        "เปิดระบบ Time Attendance",
+        "ระบุช่วงวันที่ และเงื่อนไขพนักงาน",
+        "ดึงข้อมูลตารางเวลา",
+        "ส่งข้อมูลผ่านอีเมล"
+      ],
+      "en": [
+        "Open Time Attendance system",
+        "Specify date range and employee criteria",
+        "Extract attendance data",
+        "Send data via email"
+      ]
+    },
+    "tools": ["UiPath", "Time Attendance System", "Outlook"],
+    "activities": {
+      "th": [
+        "Use Application", "Type Into", "Click",
+        "CV Element Exist", "Send Hotkey → Enter",
+        "Send Outlook Mail Message"
+      ],
+      "en": [
+        "Use Application", "Type Into", "Click",
+        "CV Element Exist", "Send Hotkey → Enter",
+        "Send Outlook Mail Message"
+      ]
+    }
+  },
+  {
+    "title": {
+      "th": "การส่งอีเมลให้ Vendor – แผนกบัญชี",
+      "en": "Weekly Email to Vendors – Accounting"
+    },
+    "objective": {
+      "th": "ลดเวลาส่งข้อมูลซ้ำ ๆ ให้ Vendor หลายราย",
+      "en": "Automate repetitive email tasks to multiple vendors"
+    },
+    "flow": {
+      "th": [
+        "อ่านอีเมลและโหลดไฟล์แนบ",
+        "เปิด Excel, แยกข้อมูล Vendor",
+        "สร้างและส่งอีเมลให้แต่ละ Vendor"
+      ],
+      "en": [
+        "Read emails and download attachments",
+        "Open Excel, separate vendor data",
+        "Generate and send emails to each vendor"
+      ]
+    },
+    "tools": ["UiPath", "Outlook", "Excel"],
+    "activities": {
+      "th": [
+        "Get Outlook Mail Messages", "For Each",
+        "Save Attachments", "Send Outlook Mail Message",
+        "Write Cell"
+      ],
+      "en": [
+        "Get Outlook Mail Messages", "For Each",
+        "Save Attachments", "Send Outlook Mail Message",
+        "Write Cell"
+      ]
+    }
+  },
+  {
+    "title": {
+      "th": "Shipment Entry – แผนกโลจิสติกส์",
+      "en": "Shipment Entry – Logistics"
+    },
+    "objective": {
+      "th": "ลดขั้นตอนการป้อนข้อมูลเข้าระบบ ERP จาก Excel",
+      "en": "Automate shipment data entry from Excel to ERP system"
+    },
+    "flow": {
+      "th": [
+        "เปิดไฟล์ Excel ที่มีข้อมูลรับของ",
+        "เปิดระบบ ERP (Prones)",
+        "กรอกข้อมูลรายการจาก Excel ลงในระบบ",
+        "บันทึกและวนทำจนกว่าจะครบ"
+      ],
+      "en": [
+        "Open Excel file containing shipment info",
+        "Launch ERP system (Prones)",
+        "Input each row of shipment data into ERP",
+        "Repeat until complete"
+      ]
+    },
+    "tools": ["UiPath", "ERP (Prones)", "Excel"],
+    "activities": {
+      "th": [
+        "Use Application", "Type Into", "Click",
+        "For Each Excel Sheet", "Assign",
+        "Write Cell", "Send Hotkey", "Table Extraction"
+      ],
+      "en": [
+        "Use Application", "Type Into", "Click",
+        "For Each Excel Sheet", "Assign",
+        "Write Cell", "Send Hotkey", "Table Extraction"
+      ]
+    }
+  },
+  {
+    "title": {
+      "th": "Item Master Update – ERP System",
+      "en": "Item Master Update – ERP System"
+    },
+    "objective": {
+      "th": "ปรับปรุงข้อมูลสินค้าในระบบ ERP ตามการเปลี่ยนแปลง",
+      "en": "Update product master data in ERP due to external changes"
+    },
+    "flow": {
+      "th": [
+        "เปิดไฟล์ Master Data ที่พนักงานเตรียมไว้",
+        "เปิดหน้าจอ Item Master ใน ERP",
+        "คีย์และแก้ไขข้อมูลจาก Excel",
+        "บันทึกและวนทำต่อเนื่อง"
+      ],
+      "en": [
+        "Open Master Data Excel file",
+        "Open Item Master section in ERP",
+        "Input and update records from Excel",
+        "Repeat until all updates complete"
+      ]
+    },
+    "tools": ["UiPath", "ERP (Prones)", "Excel"],
+    "activities": {
+      "th": [
+        "Use Application", "Type Into", "Click",
+        "For Each Excel Sheet", "Assign",
+        "Write Cell", "Send Hotkey", "Table Extraction"
+      ],
+      "en": [
+        "Use Application", "Type Into", "Click",
+        "For Each Excel Sheet", "Assign",
+        "Write Cell", "Send Hotkey", "Table Extraction"
+      ]
+    }
+  },
+  {
+    "title": {
+      "th": "Good Receive Automation – แผนกจัดซื้อ",
+      "en": "Good Receive Automation – Purchase"
+    },
+    "objective": {
+      "th": "ลดเวลาการคีย์รับสินค้าจากผู้ขายเข้า ERP",
+      "en": "Speed up goods receiving process into ERP system"
+    },
+    "flow": {
+      "th": [
+        "เปิดไฟล์รายการสินค้าแต่ละวัน",
+        "เปิดหน้าจอรับสินค้าของ ERP",
+        "คีย์ข้อมูลสินค้าและผู้ขายจาก Excel",
+        "บันทึกและวนทำจนเสร็จ"
+      ],
+      "en": [
+        "Open daily product list Excel",
+        "Launch goods receive screen in ERP",
+        "Input product and vendor data",
+        "Save and repeat for each item"
+      ]
+    },
+    "tools": ["UiPath", "ERP (Prones)", "Excel"],
+    "activities": {
+      "th": [
+        "Use Application", "Type Into", "Click",
+        "For Each Excel Sheet", "Assign",
+        "Write Cell", "Send Hotkey", "Table Extraction"
+      ],
+      "en": [
+        "Use Application", "Type Into", "Click",
+        "For Each Excel Sheet", "Assign",
+        "Write Cell", "Send Hotkey", "Table Extraction"
+      ]
+    }
+  }
+]

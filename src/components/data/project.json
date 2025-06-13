@@ -1,167 +1,186 @@
 [
-    {
-        "title": {
-            "en": "Web Prediction",
-            "th": "เว็บทำนายการเกิดโรค"
-        },
-        "category": "University",
-        "imageSrc": "project.png",
-        "description": {
-            "en" : "This website is designed to predict obesity and obesity-related diseases using trained models based on data collected from patient behavior and eating habits surveys. The data is used to train the model for accurate predictions. Django with Python is used to create the prediction model, while React powers the front-end interface, and Node.js serves as the API to communicate with the Django back-end.",
-            "th" : "เว็บไซต์นี้จัดทำขึ้นเพื่อทำนายการเกิดโรคอ้วนและโรคที่เกิดจากโรคอ้วน โดยใช้ข้อมูลที่เก็บจากการสำรวจพฤติกรรมและการกินของผู้ป่วยมาฝึกสร้างโมเดลในการทำนายข้อมูล โดยใช้ Django และ Python ในการสร้างโมเดลทำนาย และ React ในการสร้างหน้าตาเว็บไซต์ ส่วน Node.js ใช้เป็น API ในการส่งข้อมูลไปยัง Django เพื่อการประมวลผล."
-        },
-        "skills": ["React", "Django", "Node"],
-        "demo": "https://webprediction.netlify.app/"
+  {
+    "title": {
+      "en": "Web Prediction",
+      "th": "เว็บทำนายการเกิดโรค"
     },
-    {
-        "title": {
-            "en": "Landing Page",
-            "th": "หน้าเว็บไซต์สำหรับการทดลอง"
-        },
-        "category": "Workshop",
-        "imageSrc": "landing.png",
-        "description": {
-            "en": "This is a project made to learn create website by React + Tailwindcss",
-            "th": "โปรเจกต์นี้สร้างขึ้นเพื่อทดลองทำเว็บไซต์ด้วย React และ Tailwind CSS"
-        },
-        "skills": ["React", "TailwindCSS"],
-        "demo": "https://reactlanding1.netlify.app/"
+    "category": "University",
+    "imageSrc": "project.png",
+    "description": {
+      "en": "This website is designed to predict obesity and obesity-related diseases using trained models based on data collected from patient behavior and eating habits surveys. The data is used to train the model for accurate predictions. Django with Python is used to create the prediction model, while React powers the front-end interface, and Node.js serves as the API to communicate with the Django back-end.",
+      "th": "เว็บไซต์นี้จัดทำขึ้นเพื่อทำนายการเกิดโรคอ้วนและโรคที่เกิดจากโรคอ้วน โดยใช้ข้อมูลที่เก็บจากการสำรวจพฤติกรรมและการกินของผู้ป่วยมาฝึกสร้างโมเดลในการทำนายข้อมูล โดยใช้ Django และ Python ในการสร้างโมเดลทำนาย และ React ในการสร้างหน้าตาเว็บไซต์ ส่วน Node.js ใช้เป็น API ในการส่งข้อมูลไปยัง Django เพื่อการประมวลผล."
     },
-    {
-        "title": {
-            "en": "Students Information",
-            "th": "ระบบจัดการข้อมูลนักเรียน"
-        },
-        "category": "Workshop",
-        "imageSrc": "st.png",
-        "description": {
-        "en": "This project was created to learn how to use Vite with React connect to Node.js and work with a MySQL database.",
-        "th": "โปรเจกต์นี้พัฒนาขึ้นเพื่อทดลองเชื่อม React กับ Node.js และใช้งานฐานข้อมูล MySQL"
-        },
-        "skills": ["React", "Node" , "MySQL"],
-        "demo": "https://studentsinformation1.netlify.app/"
+    "skills": ["React", "Django", "Node"],
+    "demo": "https://webprediction.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "Landing Page",
+      "th": "หน้าเว็บไซต์สำหรับการทดลอง"
     },
-    {
-        "title": {
-            "en": "WorkShop Delivery Food",
-            "th": "เว็บไซต์สั่งอาหารออนไลน์ (เวิร์กช็อป)"
-        },
-        "category": "Workshop",
-        "imageSrc": "workshop.png",
-        "description": {
-            "en": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
-            "th": "เว็บไซต์สำหรับสั่งอาหารออนไลน์ พัฒนาขึ้นในเวิร์กช็อป โดยใช้ Vite + React และออกแบบ UI ด้วย Tailwind CSS"
-          },
-        "skills": ["React", "TailwindCSS"],
-        "demo": "https://deliveryfood-workshop.netlify.app/"
+    "category": "Workshop",
+    "imageSrc": "landing.png",
+    "description": {
+      "en": "This is a project made to learn create website by React + Tailwindcss",
+      "th": "โปรเจกต์นี้สร้างขึ้นเพื่อทดลองทำเว็บไซต์ด้วย React และ Tailwind CSS"
     },
-    {
-        "title": {
-            "en": "Todolist",
-            "th": "รายการสิ่งที่ต้องทำ"
-        },
-        "category": "Workshop",
-        "imageSrc": "todo.png",
-        "description": {
-            "en": "This project is a web application that allows users to create and manage a list of tasks. It is built using React and Vite, and styled with Tailwind CSS.",
-            "th": "เว็บแอปที่ช่วยให้ผู้ใช้สร้างและจัดการรายการสิ่งที่ต้องทำ พัฒนาโดยใช้ React และ Vite พร้อมออกแบบด้วย Tailwind CSS"
-        },
-        "skills": ["React", "TailwindCSS"],
-        "demo": "https://react1-todolist.netlify.app/"
+    "skills": ["React", "TailwindCSS"],
+    "demo": "https://reactlanding1.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "Students Information",
+      "th": "ระบบจัดการข้อมูลนักเรียน"
     },
-    {
-        "title": {
-            "en": "My Mobile App Projects",
-            "th": "รวมโปรเจกต์แอปมือถือ"
-        },
-        "category": "Workshop",
-        "imageSrc": "event.png",
-        "description": {
-            "en": "This Web site show my mobile app projects using React Native for development",
-            "th": "เว็บไซต์นี้แสดงผลงานแอปมือถือที่สร้างด้วย React Native"
-        },
-        "skills": ["React Native"],
-        "demo": "https://mymobileapp-projects.netlify.app/"
+    "category": "Workshop",
+    "imageSrc": "st.png",
+    "description": {
+      "en": "This project was created to learn how to use Vite with React connect to Node.js and work with a MySQL database.",
+      "th": "โปรเจกต์นี้พัฒนาขึ้นเพื่อทดลองเชื่อม React กับ Node.js และใช้งานฐานข้อมูล MySQL"
     },
-    {
-        "title": {
-            "en": "ChatRoom",
-            "th": "ห้องแชทออนไลน์"
-        },
-        "category": "Workshop",
-        "imageSrc": "ChatsRoom.png",
-        "description": {
-            "en": "ChatRoom application using Vite + React and TailwindCSS, featuring real-time messaging powered by Firebase Firestore.",
-            "th": "แอปพลิเคชันห้องแชทเรียลไทม์ที่พัฒนาด้วย Vite + React และ TailwindCSS พร้อมเชื่อมต่อกับ Firebase Firestore"
-        },
-        "skills": ["React", "TailwindCSS", "Firebase"],
-        "demo": "https://chats-room.netlify.app/"
+    "skills": ["React", "Node", "MySQL"],
+    "demo": "https://studentsinformation1.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "WorkShop Delivery Food",
+      "th": "เว็บไซต์สั่งอาหารออนไลน์ (เวิร์กช็อป)"
     },
-    {
-        "title": {
-            "en" : "Inventory Management System",
-            "th" : "ระบบจัดการคลังสินค้า"
-        },
-        "category": "Professional",
-        "imageSrc": "inv.jpg",
-        "description": {
-            "en" : "Developed an internal desktop application using C# and Microsoft SQL Server to manage inventory counting within the company. This system supports item check-in/check-out and generates summary reports.",
-            "th": "พัฒนาแอปพลิเคชันเดสก์ท็อปภายในบริษัทด้วยภาษา C# และ Microsoft SQL Server สำหรับจัดการการนับสต๊อกสินค้า รองรับการรับ-จ่ายสินค้า และสรุปรายงานการนับสต๊อก"
-        },
-        "skills": ["C#", "Microsoft SQL Server"]
+    "category": "Workshop",
+    "imageSrc": "workshop.png",
+    "description": {
+      "en": "This project is an online food ordering website developed as a workshop to practice using Vite with React. The UI is styled with Tailwind CSS for a modern and responsive design.",
+      "th": "เว็บไซต์สำหรับสั่งอาหารออนไลน์ พัฒนาขึ้นในเวิร์กช็อป โดยใช้ Vite + React และออกแบบ UI ด้วย Tailwind CSS"
     },
-    {
-        "title": {
-            "en" : "IT Department Asset Registration",
-            "th" : "ระบบลงทะเบียนสินทรัพย์แผนกไอที"
-        },
-        "category": "Professional",
-        "imageSrc": "regis.jpg",
-        "description": {
-            "en": "Created a desktop application for the IT department to register and track IT assets across various departments. The system ensures proper recording and provides asset history reporting.",
-            "th": "พัฒนาแอปพลิเคชันเดสก์ท็อปสำหรับลงทะเบียนและติดตามทรัพย์สินของแผนกไอทีในแต่ละแผนก พร้อมฟังก์ชันบันทึกประวัติการใช้งาน"
-        },
-        "skills": ["C#", "Microsoft SQL Server"]
+    "skills": ["React", "TailwindCSS"],
+    "demo": "https://deliveryfood-workshop.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "Todolist",
+      "th": "รายการสิ่งที่ต้องทำ"
     },
-    {
-        "title": {
-          "en": "Goods Receiving System on Handheld Devices",
-          "th": "ระบบรับสินค้าเข้าคลังบนอุปกรณ์ Handheld"
-        },
-        "category": "Professional",
-        "imageSrc": "receive.jpg",
-        "description": {
-          "en": "Developed a goods receiving system for handheld devices using VB.NET, connected to a PostgreSQL database and integrated with a Node.js backend. The system helps streamline warehouse stock-in processes efficiently.",
-          "th": "พัฒนาระบบรับสินค้าเข้าคลังสำหรับใช้งานบนอุปกรณ์ Handheld โดยใช้ VB.NET เชื่อมต่อฐานข้อมูล PostgreSQL และมีระบบ backend ด้วย Node.js เพื่อให้การรับสินค้าเข้าคลังเป็นไปอย่างมีประสิทธิภาพ"
-        },
-        "skills": ["VB.NET", "PostgreSQL", "Node.js"]
-      },
-      {
-        "title": {
-          "en": "RPA User Guide & Workflow Support",
-          "th": "คู่มือ RPA และการสนับสนุน Workflow"
-        },
-        "category": "Professional",
-        "imageSrc": "rpa.jpg",
-        "description": {
-          "en": "Created a beginner-friendly RPA user manual with UiPath, including troubleshooting. Designed a SharePoint page for knowledge sharing. Assisted users with workflow analysis and troubleshooting during RPA implementation.",
-          "th": "สร้างคู่มือการใช้งาน RPA เบื้องต้นด้วย UiPath รวมถึงการแก้ไขปัญหา ออกแบบหน้า SharePoint สำหรับการแชร์ความรู้ ช่วยผู้ใช้ในการวิเคราะห์กระบวนการทำงานและแก้ไขปัญหาระหว่างการพัฒนา RPA"
-        },
-        "skills": ["UiPath", "SharePoint", "Canva" ,"Communication", "Workflow Analysis"]
-      },
-      {
-        "title": {
-          "en": "Travel Gallery",
-          "th": "เว็บไซต์แกลเลอรีภาพท่องเที่ยว"
-        },
-        "category": "Workshop",
-        "imageSrc": "travel.png",
-        "description": {
-          "en": "A responsive travel gallery website that showcases travel photos from countries like China, New Zealand, Hong Kong, and Thailand. Each location includes bilingual descriptions (Thai and English). Users can click to open a smooth modal slideshow to explore more photos in each location.",
-          "th":"เว็บไซต์แกลเลอรีที่จัดแสดงภาพสถานที่ท่องเที่ยวในประเทศต่าง ๆ เช่น จีน นิวซีแลนด์ ฮ่องกง และไทย พร้อมคำบรรยายรองรับสองภาษา (ไทยและอังกฤษ) ผู้ใช้สามารถคลิกเพื่อดูภาพขนาดใหญ่แบบสไลด์ในรูปแบบ Modal ได้อย่างสวยงามและลื่นไหล รองรับการใช้งานทั้งบนมือถือและเดสก์ท็อป"
-        },
-        "skills": ["React", "Tailwind CSS"],
-        "demo" : "https://travel-gallery1.netlify.app/"
-      }
-
+    "category": "Workshop",
+    "imageSrc": "todo.png",
+    "description": {
+      "en": "This project is a web application that allows users to create and manage a list of tasks. It is built using React and Vite, and styled with Tailwind CSS.",
+      "th": "เว็บแอปที่ช่วยให้ผู้ใช้สร้างและจัดการรายการสิ่งที่ต้องทำ พัฒนาโดยใช้ React และ Vite พร้อมออกแบบด้วย Tailwind CSS"
+    },
+    "skills": ["React", "TailwindCSS"],
+    "demo": "https://react1-todolist.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "My Mobile App Projects",
+      "th": "รวมโปรเจกต์แอปมือถือ"
+    },
+    "category": "Workshop",
+    "imageSrc": "event.png",
+    "description": {
+      "en": "This Web site show my mobile app projects using React Native for development",
+      "th": "เว็บไซต์นี้แสดงผลงานแอปมือถือที่สร้างด้วย React Native"
+    },
+    "skills": ["React Native"],
+    "demo": "https://mymobileapp-projects.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "ChatRoom",
+      "th": "ห้องแชทออนไลน์"
+    },
+    "category": "Workshop",
+    "imageSrc": "ChatsRoom.png",
+    "description": {
+      "en": "ChatRoom application using Vite + React and TailwindCSS, featuring real-time messaging powered by Firebase Firestore.",
+      "th": "แอปพลิเคชันห้องแชทเรียลไทม์ที่พัฒนาด้วย Vite + React และ TailwindCSS พร้อมเชื่อมต่อกับ Firebase Firestore"
+    },
+    "skills": ["React", "TailwindCSS", "Firebase"],
+    "demo": "https://chats-room.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "Inventory Management System",
+      "th": "ระบบจัดการคลังสินค้า"
+    },
+    "category": "Professional",
+    "imageSrc": "inv.jpg",
+    "description": {
+      "en": "Developed an internal desktop application using C# and Microsoft SQL Server to manage inventory counting within the company. This system supports item check-in/check-out and generates summary reports.",
+      "th": "พัฒนาแอปพลิเคชันเดสก์ท็อปภายในบริษัทด้วยภาษา C# และ Microsoft SQL Server สำหรับจัดการการนับสต๊อกสินค้า รองรับการรับ-จ่ายสินค้า และสรุปรายงานการนับสต๊อก"
+    },
+    "skills": ["C#", "Microsoft SQL Server"]
+  },
+  {
+    "title": {
+      "en": "IT Department Asset Registration",
+      "th": "ระบบลงทะเบียนสินทรัพย์แผนกไอที"
+    },
+    "category": "Professional",
+    "imageSrc": "regis.jpg",
+    "description": {
+      "en": "Created a desktop application for the IT department to register and track IT assets across various departments. The system ensures proper recording and provides asset history reporting.",
+      "th": "พัฒนาแอปพลิเคชันเดสก์ท็อปสำหรับลงทะเบียนและติดตามทรัพย์สินของแผนกไอทีในแต่ละแผนก พร้อมฟังก์ชันบันทึกประวัติการใช้งาน"
+    },
+    "skills": ["C#", "Microsoft SQL Server"]
+  },
+  {
+    "title": {
+      "en": "Goods Receiving System on Handheld Devices",
+      "th": "ระบบรับสินค้าเข้าคลังบนอุปกรณ์ Handheld"
+    },
+    "category": "Professional",
+    "imageSrc": "receive.jpg",
+    "description": {
+      "en": "Developed a goods receiving system for handheld devices using VB.NET, connected to a PostgreSQL database and integrated with a Node.js backend. The system helps streamline warehouse stock-in processes efficiently.",
+      "th": "พัฒนาระบบรับสินค้าเข้าคลังสำหรับใช้งานบนอุปกรณ์ Handheld โดยใช้ VB.NET เชื่อมต่อฐานข้อมูล PostgreSQL และมีระบบ backend ด้วย Node.js เพื่อให้การรับสินค้าเข้าคลังเป็นไปอย่างมีประสิทธิภาพ"
+    },
+    "skills": ["VB.NET", "PostgreSQL", "Node.js"]
+  },
+  {
+    "title": {
+      "en": "RPA User Guide & Workflow Support",
+      "th": "คู่มือ RPA และการสนับสนุน Workflow"
+    },
+    "category": "Professional",
+    "imageSrc": "rpa.jpg",
+    "description": {
+      "en": "Created a beginner-friendly RPA user manual with UiPath, including troubleshooting. Designed a SharePoint page for knowledge sharing. Assisted users with workflow analysis and troubleshooting during RPA implementation.",
+      "th": "สร้างคู่มือการใช้งาน RPA เบื้องต้นด้วย UiPath รวมถึงการแก้ไขปัญหา ออกแบบหน้า SharePoint สำหรับการแชร์ความรู้ ช่วยผู้ใช้ในการวิเคราะห์กระบวนการทำงานและแก้ไขปัญหาระหว่างการพัฒนา RPA"
+    },
+    "skills": [
+      "UiPath",
+      "SharePoint",
+      "Canva",
+      "Communication",
+      "Workflow Analysis"
+    ]
+  },
+  {
+    "title": {
+      "en": "Travel Gallery",
+      "th": "เว็บไซต์แกลเลอรีภาพท่องเที่ยว"
+    },
+    "category": "Workshop",
+    "imageSrc": "travel.png",
+    "description": {
+      "en": "A responsive travel gallery website that showcases travel photos from countries like China, New Zealand, Hong Kong, and Thailand. Each location includes bilingual descriptions (Thai and English). Users can click to open a smooth modal slideshow to explore more photos in each location.",
+      "th": "เว็บไซต์แกลเลอรีที่จัดแสดงภาพสถานที่ท่องเที่ยวในประเทศต่าง ๆ เช่น จีน นิวซีแลนด์ ฮ่องกง และไทย พร้อมคำบรรยายรองรับสองภาษา (ไทยและอังกฤษ) ผู้ใช้สามารถคลิกเพื่อดูภาพขนาดใหญ่แบบสไลด์ในรูปแบบ Modal ได้อย่างสวยงามและลื่นไหล รองรับการใช้งานทั้งบนมือถือและเดสก์ท็อป"
+    },
+    "skills": ["React", "Tailwind CSS"],
+    "demo": "https://travel-gallery1.netlify.app/"
+  },
+  {
+    "title": {
+      "en": "My RPA Projects",
+      "th": "เว็บไซต์แสดงผลงานที่เคยทำ"
+    },
+    "category": "Professional",
+    "imageSrc": "webrpa.png",
+    "description": {
+      "en": "A showcase website of RPA projects developed with UiPath ",
+      "th": "เว็บตัวอย่างผลงานที่เคยทำ RPA ด้วย UiPath "
+    },
+    "skills": ["React", "Tailwind CSS"],
+    "demo": "https://rpa-projects.netlify.app/"
+  }
 ]
